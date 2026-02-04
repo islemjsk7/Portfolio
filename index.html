@@ -4,92 +4,94 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>My Portfolio</title>
-    <link rel="stylesheet" href="./islem.css">
+    <link rel="icon" href="pf2.png">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
 </head>
 <body>
-    <header>
-        <nav>
-            <ul>
-                <li><a href="#home">Home</a></li>
-                <li><a href="#about">About</a></li>
-                <li><a href="#work">Work</a></li>
-                <li><a href="#resume">Resume</a></li>
-                <li><a href="#contact">Contact</a></li>
-            </ul>
-            <h1>Welcome To My Portfolio</h1>
-            <p>Hello im Islem and im learning web development.</p>
+
+    <header class="header" id="home">
+        <h1>Welcome To My Portfolio</h1>
+        <p>I'm Islem and i'm learning web development.</p>
     </header>
+
+    <nav class="navbar">
+        <ul class="nav-list">
+            <li class="nav-item"><a href="#home">Home</a></li>
+            <li class="nav-item"><a href="#about">About</a></li>
+            <li class="nav-item"><a href="#work">Work</a></li>
+            <li class="nav-item"><a href="#resume">Resume</a></li>
+            <li class="nav-item"><a href="#contact">Contact</a></li>
+        </ul>
+    </nav>
 
     <section id="about">
         <h2>About Me</h2>
         <p>
-            Im a passionate student and i was born to learn and discover.
+            I'm a passionate student and I was born to learn and discover.
         </p>
     </section>
 
     <section id="work">
-<h2>My Work</h2>
-<ul>
-    <li>Finance Student</li>
-    <li>Professional web developer</li>
-    <li>Freelancer</li>
-    <li>Mobile Developer</li>
-</ul>
-<p>
-    Here is one of my works:
-</p>
-<audio controls>
-      <source src="jul.mp3" type="audio/mpeg">
-    </audio>
+        <h2>My Work</h2>
+        <ul>
+            <li>Finance Student</li>
+            <li>Professional Web Developer</li>
+            <li>Freelancer</li>
+            <li>Mobile Developer</li>
+        </ul>
+        <p>Here is one of my works:</p>
+        <audio controls>
+            <source src="jul.mp3" type="audio/mpeg">
+        </audio>
     </section>
 
     <section id="resume">
-    <h2>Resume</h2>
-    <p>
-        My education background:
-    </p>
-    <table border="3" 
-      <tr>
-        <th>Year</th>
-        <th>Education</th>
-      </tr>
-      <tr>
-        <td>2022</td>
-        <td>Baccalaureate Certificate</td>
-      </tr>
-      <tr>
-        <td>2023</td>
-        <td>B1 English Certeficate</td>
-      </tr>
-      <tr>
-        <td>2026</td>
-        <td>Web Development Training</td>
-      </tr>
-    </table>
-  </section>
+        <h2>Resume</h2>
+        <p>My education background:</p>
+        <table>
+            <tr>
+                <th>Year</th>
+                <th>Education</th>
+            </tr>
+            <tr>
+                <td>2022</td>
+                <td>Baccalaureate Certificate</td>
+            </tr>
+            <tr>
+                <td>2023</td>
+                <td>B1 English Certificate</td>
+            </tr>
+            <tr>
+                <td>2026</td>
+                <td>Web Development Training</td>
+            </tr>
+        </table>
+    </section>
 
-   <section id="contact">
-    <h2>Contact Me</h2>
-    <form>
-      <label>Name:</label><br>
-      <input type="text"><br><br>
+    <section id="contact">
+        <h2>Contact Me</h2>
+        <form>
+            <label>Name:</label><br>
+            <input type="text"><br>
 
-      <label>Email:</label><br><br>
-      <input type="email"><br><br>
+            <label>Email:</label><br>
+            <input type="email"><br>
 
-      <button type="submit">Send</button>
-    </form>
-  </section>
+            <button type="submit">Send</button>
+        </form>
+    </section>
 
-  <hr>
+    <hr>
 
-  <footer style="text-align: center;">
-    <p>©2026 Islem Portfolio Project</p>
-    <p>You can also find me:</p>
-    <p>
-        <a href="facebook">Facebook</a>
-        <a href="instagram">Instagram</a>
-    </p>
-  </footer>
+    <footer>
+        <p>©2026 Islem Portfolio Project</p>
+        <p>You can also find me:</p>
+        <div>
+            <a href="facebook" target="_blank">Facebook</a>
+            <a href="instagram" target="_blank">Instagram</a>
+        </div>
+    </footer>
+
 </body>
 </html>
